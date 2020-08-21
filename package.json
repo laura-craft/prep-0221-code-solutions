@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Code exercise solutions.",
-  "main": "",
-  "scripts": {
-  },
+  "main": "index.js",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -50,5 +48,9 @@
     "stylelint-config-recommended": "3.0.0",
     "stylelint-config-standard": "20.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
